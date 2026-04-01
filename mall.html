@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mall</title>
+
+<style>
+body{
+margin:0;
+background:#0b1d3a;
+color:white;
+font-family:sans-serif;
+}
+
+.topbar{
+display:flex;
+align-items:center;
+padding:15px;
+}
+
+.card{
+background:#12294d;
+padding:15px;
+margin:10px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+display:block;
+}
+
+.lang{
+position:absolute;
+right:15px;
+top:15px;
+}
+
+.langbtn{
+background:#12294d;
+border:none;
+color:white;
+padding:5px 10px;
+margin-left:5px;
+border-radius:6px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+<div class="topbar">
+<button onclick="history.back()" style="background:none;border:none;color:white;font-size:20px;">←</button>
+
+<h2 id="title" style="margin-left:10px;">ショッピングモール (Malls)</h2>
+</div>
+
+
+<a href="siam.html" class="card">
+サイアム・パラゴン (Siam Paragon)
+</a>
+
+<a href="iconsiam.html" class="card">
+アイコンサイアム (ICONSIAM)
+</a>
+
+<a href="centralworld.html" class="card">
+セントラルワールド (CentralWorld)
+</a>
+
+<a href="mbk.html" class="card">
+エムビィーケー・センター (MBK Center)
+</a>
+
+<a href="rama9.html" class="card">
+セントラル・ラマ9 (Central Rama 9)
+</a>
+
+<a href="terminal21.html" class="card">
+ターミナル21 (Terminal 21)
+</a>
+
+
+
+<script>
+
+const text={
+
+en:{
+title:"Mall",
+
+siam:"Siam Paragon",
+
+iconsiam:"ICONSIAM",
+
+cw:"CentralWorld",
+
+mbk:"MBK",
+
+rama9:"Central Rama 9",
+
+t21:"Terminal 21"
+},
+
+
+}
+
+
+
+document.getElementById("title").innerText=text[lang].title
+
+document.getElementById("siam").innerText=text[lang].siam
+
+document.getElementById("iconsiam").innerText=text[lang].iconsiam
+
+document.getElementById("cw").innerText=text[lang].cw
+
+document.getElementById("mbk").innerText=text[lang].mbk
+
+document.getElementById("rama9").innerText=text[lang].rama9
+
+document.getElementById("t21").innerText=text[lang].t21
+
+}
+
+</script>
+
+</body>
+</html>

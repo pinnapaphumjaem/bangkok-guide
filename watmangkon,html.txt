@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal 21</title>
+
+<style>
+body{margin:0;background:#0b1d3a;color:white;font-family:sans-serif;}
+.topbar{display:flex;align-items:center;padding:15px;}
+.topbar button{
+  width:auto;        
+  font-size:16px;
+  cursor:pointer;
+  padding:6px 10px;
+}
+.content{padding:20px;}
+img{width:100%;border-radius:15px;margin-bottom:15px;}
+button{width:100%;padding:12px;border:none;border-radius:10px;background:#1e90ff;color:white;}
+</style>
+<script>
+function openMap(){window.open("https://www.google.com/maps?sca_esv=231828c7d9589dfc&rlz=1C1CHZN_enTH991TH991&biw=870&bih=858&output=search&q=wat+mangkon+kamalawat+yaowarat&source=lnms&fbs=ADc_l-aXFfk-8GaWhichYkH66FC82RTeLFVbPbnat1oIlI8iCc6U2t_LZVEnELUbom8gZWFNVs-NmL1dcIDF9ZsG04SkH91BSyAEGiX3VF0nkbLjOPAv4FhrVQrcsMx6aNQmGEBPVqO1_TKgrqTAHXZys1KyEMfsP-y3RZb7a1_PGXHbbboKsHkXgxSQ_-v5-CGwlD3klMpA_yAKaHRfFa51kpyK_UX6QR1rrvVuYUCpMU9R11sXFUTtx5N6YmlOXBfKAX9eQmnM_us4PsmLiJsiWVItOvP1u-eQePO1VB7mAk1YSL3kq4yuuaAqhusMd-Ok4Jy4Syak&entry=mc&ved=1t:200715&ictx=111");}
+</script>
+</head>
+<body>
+<div class="topbar"><button onclick="history.back()">←</button><h2>WAT MANGKON</h2></div>
+<div class="content">
+<img src="https://thumbs.dreamstime.com/b/bangkok-thailand-july-wat-mangkon-kamalawat-wat-leng-noei-yi-buddhist-temple-interior-view-chinatown-bangkok-wat-mangkon-329356214.jpg">
+<p>見どころ: ワット・マンコン・カマラーワートは、バンコクのチャイナタウンで最も重要かつ最大の中国寺院であり、タイ華人コミュニティの精神的中心地として広く尊敬されています。ヤワラートの中心に位置し、19世紀後半に建立され、中国伝統建築様式で建てられています。鮮やかな色彩や精巧な屋根装飾、力・繁栄・幸運を象徴する龍のモチーフが特徴です。
+
+寺院内は線香の香りと祈りの音に包まれ、静かでありながらも神聖な雰囲気に満ちています。内部には仏陀や菩薩、中国の神々などが祀られており、仏教と道教の信仰が調和して共存しています。特に旧正月やベジタリアンフェスティバルの期間中は、多くの参拝者が訪れ、幸運や健康、成功を祈願します。
+
+宗教的な重要性に加え、この寺院はタイにおける中国系コミュニティの深い文化的ルーツと伝統も反映しています。豊かな歴史、精緻な装飾、そして活気ある周辺環境により、訪れる人々にユニークな文化体験を提供し、チャイナタウンを代表する重要なランドマークとなっています。</p>
+
+<p>入場料:</p>
+<p>無料（すべての訪問者）</p>
+
+<p>営業時間:</p>
+<p>午前06:00～午後06:00</p>
+
+<p>アクセス:</p>
+<p>MRTワット・マンコン駅（1番出口）から徒歩約2分（約150m）</p>
+<button onclick="openMap()">📍 Google Maps</button>
+</div>
+</body>
+</html>
