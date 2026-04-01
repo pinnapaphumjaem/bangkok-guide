@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historical</title>
+
+<style>
+body{
+  margin:0;
+  background:#0b1d3a;
+  color:white;
+  font-family:sans-serif;
+}
+
+.topbar{
+  display:flex;
+  align-items:center;
+  padding:15px;
+}
+
+.card{
+  background:#12294d;
+  padding:15px;
+  margin:10px;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+  display:block;
+}
+
+.lang{
+  position:absolute;
+  right:15px;
+  top:15px;
+}
+
+button.langbtn{
+  background:#12294d;
+  border:none;
+  color:white;
+  padding:5px 10px;
+  margin-left:5px;
+  border-radius:6px;
+  cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="topbar">
+<button onclick="history.back()" style="background:none;border:none;color:white;font-size:20px;">←</button>
+<h2 data-key="historical" style="margin-left:10px;">Historical</h2>
+</div>
+
+<a href="grandpalace.html" class="card" data-key="grand">グランドパレス (Grand Palace)</a>
+<a href="watphra.html" class="card" data-key="phra">ワット・プラケーオ (Wat Phra Kaew)</a>
+<a href="watarun.html" class="card" data-key="arun">ワット・アルン (Wat Arun)</a>
+<a href="watpho.html" class="card" data-key="pho">ワット・ポー (Wat Pho)</a>
+<a href="watmangkon.html" class="card" data-key="mangkon">ワット・マンコン (Wat Mangkon)</a>
+
+</body>
+</html>
